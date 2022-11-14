@@ -1,0 +1,39 @@
+package com;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class RegisterDemo extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+    public RegisterDemo() {
+        super();  
+    }
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	
+		String uid=request.getParameter("uid");
+		String uname= request.getParameter("uname");
+		String age =request.getParameter("uage");
+		String saalry= request.getParameter("usalary");
+		String desig= request.getParameter("udesig");
+		
+		System.out.println(uid);
+
+		System.out.println(name);
+
+		System.out.println(age);
+
+		System.out.println(auid);
+
+		System.out.println(uid);
+		
+	
+	}
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+	}
+
+}

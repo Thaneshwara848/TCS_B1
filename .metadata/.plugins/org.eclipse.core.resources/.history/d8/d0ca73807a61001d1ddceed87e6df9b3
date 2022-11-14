@@ -1,0 +1,57 @@
+package com;
+
+import java.util.Scanner;
+
+class Emp
+{
+	static void insert()
+	{	
+	}
+	static void display()
+	{	
+	}
+	static void update()
+	{	
+	}
+	static void delete()
+	{	
+	}
+}
+public class JDBCProject {
+
+	public static void main(String[] args) {
+		int ch;
+		do {
+			Scanner sc= new Scanner(System.in);
+			System.out.println("1 ) Insert ");
+			System.out.println("2 ) DISPLAY ");
+			System.out.println("3 ) Update  ");
+			System.out.println("4 ) Delete ");
+			System.out.println("Enter the choice :");
+			ch=sc.nextInt();
+			if(ch==1)
+			{
+				Emp.insert();
+			}
+			if(ch==2)
+			{
+				Emp.display();
+			}
+			if(ch==3)
+			{
+				Emp.update()
+			}
+			if(ch==4)
+			{
+				Emp.delete();
+			}
+			if(ch==1)
+			{
+				Emp.insert();
+			}
+		
+	}while(ch<=5);
+		
+	}
+
+}

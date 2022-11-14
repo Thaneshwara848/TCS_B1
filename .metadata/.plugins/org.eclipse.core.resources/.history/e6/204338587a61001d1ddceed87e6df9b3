@@ -1,0 +1,36 @@
+package com;
+
+import java.util.Scanner;
+
+class Emp
+{
+	static void insert()
+	{	
+	}
+	static void read()
+	{	
+	}
+	static void update()
+	{	
+	}
+	static void delete()
+	{	
+	}
+}
+public class JDBCProject {
+
+	public static void main(String[] args) {
+		int ch;
+		do {
+			Scanner sc= new Scanner(System.in);
+			System.out.println("1 ) Insert ");
+			System.out.println("2 ) DISPLAY ");
+			System.out.println("3 ) Update  ");
+			System.out.println("Enter the choice :");
+			ch=sc.nextInt();
+		
+	}while(ch<=5);
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	A : <input type="text" name="aval"><br>
+	B :<input type="text" name="bval"><br>
+	<input type="submit" value="ADD">
+
+</body>
+</html>

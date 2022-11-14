@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body bgcolor="cyan">
+	<h1> Hi Welcome to Web Applcaition </h1>
+	
+	ID: <input type="text" > <br>
+	NAME:<input type="text" ><br>
+	AGE :<input type="text" ><br>
+	SALARY :<input type="text" ><br>
+	DESIG : <input type="text" ><br><br>
+	
+	<input type="submit"  value="REGISTER">
+	
+	
+
+</body>
+</html>

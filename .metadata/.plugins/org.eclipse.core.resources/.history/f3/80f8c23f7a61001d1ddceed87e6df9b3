@@ -1,0 +1,27 @@
+package com;
+class Emp
+{
+	static void insert()
+	{	
+	}
+	static void read()
+	{	
+	}
+	static void update()
+	{	
+	}
+	static void delete()
+	{	
+	}
+}
+public class JDBCProject {
+
+	public static void main(String[] args) {
+		int ch;
+		do {
+		
+	}while(ch<=5);
+		
+	}
+
+}

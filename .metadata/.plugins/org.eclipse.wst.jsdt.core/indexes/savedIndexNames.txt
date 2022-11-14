@@ -1,0 +1,14 @@
+INDEX VERSION 1.4+C:\Users\THANESH\TcsB1\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3023426971.index
+1509390884.index
+2473308950.index
+3499029894.index
+2047350307.index
+320095851.index
+3023426971.index
+3808511897.index
+488301014.index
+1500590533.index
+2292848555.index
+1831271327.index
+3679897000.index

@@ -1,0 +1,36 @@
+package com;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+
+public class Demo1 {
+	public static void main(String[] args) {
+		// 5 steps 
+		// Load the driver 
+		// Create the connection 
+		// Create the statement 
+		// execute the query
+		// close 
+		try {
+			Class.forName("");
+			Connection  con=DriverManager.getConnection(null, null, null);
+			Statement stmt=con.createStatement();
+			stmt.execute("SQL");
+			stmt.close();con.close();
+			
+		}
+		catch (Exception e) {
+			System.out.println(e);
+		}
+	}
+}
+
+
+
+
+
+
+
+
+

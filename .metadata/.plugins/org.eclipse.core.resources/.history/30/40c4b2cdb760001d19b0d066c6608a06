@@ -1,0 +1,36 @@
+package com;
+
+
+
+public class Demo1 {
+	public static void main(String[] args) {
+		// 5 steps 
+		// Load the driver 
+		// Create the connection 
+		// Create the statement 
+		// execute the query
+		// close 
+		try {
+			Class.forName("");
+			Connection 
+		}
+		catch (Exception e) {
+			System.out.println(e);
+		}
+		
+		
+		
+		
+
+	}
+
+}
+
+
+
+
+
+
+
+
+

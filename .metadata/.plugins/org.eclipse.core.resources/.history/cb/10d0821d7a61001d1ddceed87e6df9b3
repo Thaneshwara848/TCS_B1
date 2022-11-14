@@ -1,0 +1,24 @@
+package com;
+class Emp
+{
+	static void insert()
+	{	
+	}
+	void read()
+	{	
+	}
+	void update()
+	{	
+	}
+	void delete()
+	{	
+	}
+}
+public class JDBCProject {
+
+	public static void main(String[] args) {
+	
+		
+	}
+
+}
